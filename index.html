@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Computer Networking Information Group (CNIG) | MIET Meerut</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="icon.png" />
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+
+<style>
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+.tablink {
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px;
+  text-align: center;
+  font-size: 17px;
+  }
+  div.scrollmenu {
+
+  overflow: auto;
+  white-space: nowrap;
+  margin: 0px 290px;
+
+}
+div.scrollmenu button {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  background-image: url(pic1.png);
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 17px;
+
+}
+
+div.scrollmenu button:hover {
+  background-image: url(pic4.jpg);
+}
+
+
+
+
+
+.parent{
+        position: relative;
+    }
+
+
+
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.content {
+  margin-left: 75px;
+  font-size: 30px;
+}
+
+
+
+</style>
+</head>
+
+
+
+
+
+
+<body>
+<div class="parent" id="top" style="background-color: black;">
+  <img src="logo.jpg" style="margin-left: 2%;">
+  <img src="logo5.png" style="left: 30%; top: 10px; position: absolute;">
+  <img src="icon.png" style="left: 90%; height: 103px; width: 103px; position: absolute;">
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div style="background-image: url(pic4.jpg);">
+<div class="scrollmenu">
+<button class="tablink" onclick="openPage('Home', this)" id="defaultOpen">Home</button>
+
+<button class="tablink" onclick="openPage('Faculty', this, 'black')">Faculty</button>
+<button class="tablink" onclick="openPage('Partner', this, 'black')">Partner</button>
+<button class="tablink" onclick="openPage('Project', this, 'black')">Project</button>
+<button class="tablink" onclick="openPage('Software', this, 'black')">Software</button>
+<button class="tablink" onclick="openPage('Achieve', this, 'black')">Achievement</button>
+<button class="tablink" onclick="openPage('Event', this, 'black')">Event</button>
+<button class="tablink" onclick="openPage('More', this, 'black')">Contact</button>
+</div>
+
+
+
+
+
+
+
+
+<div class="icon-bar">
+  <a href="https://www.instagram.com/coderecipeofficial/" class="instagram" style="background-color: #ff3385;"><i class="fa fa-instagram"></i></a>
+  <a href="https://twitter.com/code_recipe" class="twitter"><i class="fa fa-twitter"></i></a>
+  <a href="mailto:vimal.kumar@miet.ca.in" class="google"><i class="fa fa-google"></i></a>
+  <a href="https://www.linkedin.com/company/coderecipeofficial/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+  <a href="https://www.youtube.com/channel/UCQY5zPxmRoC-Y3df0HjHeIQ/" class="youtube"><i class="fa fa-youtube"></i></a>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="Home" class="tabcontent">
+    <div class="w3-container">
+      <div class="w3-panel w3-pale-blue w3-leftbar w3-rightbar w3-border-blue" style="display: inline-block;
+  max-width: 60%;
+  text-align: left;
+  padding: 30px;
+  background-color: #ddd;
+  border-radius: 3px;
+  margin: 30px 60px;
+  vertical-align: top;">
+        <h2 style="text-align: center;"><b>Computer Networking Information Group</b></h2>
+        <p>The primary focus of <b>Computer Networking Information Group (CNIG) at MIET Meerut</b> is to enable verifiable and reproducible research in the areas of Computer Networks; specially Network Congestion Control, Active Queue Management, Protocol Design and Development, Internet of Things and Future Internet Architecture. The projects handled by this group are all open-source, and active contributions from the community towards enhacing these projects are welcome!<br>
+
+        CNIG has been instrumental in developing benchmark tools that can be used to analyze the working of existing or upcoming network protocols. These tools are developed with an aim to simplify the process of protocol design and engineering.</p>
+      </div>
+      <div class="w3-panel w3-white w3-leftbar w3-rightbar w3-border-red"   style="display: inline-block;
+  max-width: 25%;
+  text-align: left;
+  padding: 10px;
+  background-color: #ddd;
+  border-radius: 3px;
+  margin: 30px 30px;">
+        <h2 style="text-align: center;"><b>Associated Faculty</b></h2>
+        <p>Dr. Vimal Kumar<br>
+Associate Professor (Computer Science and Engineering)<br>
+Vishal Jaiswal<br>
+Assistant Professor (Computer Science and Engineering)<br>
+Utkarsh Pundir<br>
+Assistant Professor (Computer Science & Engineering)</p>
+      </div>
+
+      <div class="w3-panel w3-pale-blue w3-leftbar w3-rightbar w3-border-blue" style="display: inline-block;
+  max-width: 70%;
+  text-align: left;
+  padding: 30px;
+  background-color: #ddd;
+  border-radius: 3px;
+  margin: 30px 200px;
+  vertical-align: top;">
+        <h2 style="text-align: center;"><b>CNIG Goal </b></h2>
+        <ul><li>The main goal of networking is "Resource sharing", and it is to make all programs, data and equipment available to anyone on the network without the regard to the physical location of the resource and the user.</li>
+
+<li>A second goal is to provide high reliability by having alternative sources of supply. For example, all files could be replicated on two or three machines, so if one of them is unavailable, the other copies could be available.</li>
+
+<li>Another goal is saving money. Small computers have a much better price/performance ratio than larger ones. Mainframes are roughly a factor of ten times faster than the fastest single chip microprocessors, but they cost thousand times more. This imbalance has caused many system designers to build systems consisting of powerful personal computers, one per user, with data kept on one or more shared file server machines. This goal leads to networks with many computers located in the same building. Such a network is called a LAN (local area network).</li>
+
+<li>Another closely related goal is to increase the systems performance as the work load increases by just adding more processors. With central mainframes, when the system is full, it must be replaced by a larger one, usually at great expense and with even greater disruption to the users.</li>
+<li>
+Computer networks provide a powerful communication medium. A file that was updated or modified on a network can be seen by the other users on the network immediately.</li><br>
+</ul>
+      </div>
+  </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="Faculty" class="tabcontent" style="background-image: url(pic41.jpg);">
+<div class="w3-container">
+      <div class="w3-panel w3-pale-blue w3-leftbar w3-rightbar w3-border-blue" style="display: inline-block;
+  max-width: 25%;
+  text-align: center;
+  padding: 30px;
+  background-color: #ddd;
+  border-radius: 3px;
+  margin: 30px 60px;
+  vertical-align: top;">
+        <h2 style="text-align: center;"><b>Dr. Vimal Kumar</b></h2>
+        <p>Associate Professor (Computer Science and Engineering)<br>
+ vimal.kumar@miet.ac.in</p>
+      </div>
+      <div class="w3-panel w3-pale-blue w3-leftbar w3-rightbar w3-border-blue" style="display: inline-block;
+  max-width: 25%;
+  text-align: center;
+  padding: 30px;
+  background-color: #ddd;
+  border-radius: 3px;
+  margin: 30px 30px;">
+        <h2 style="text-align: center;"><b>Vishal Jaiswal</b></h2>
+        <p>Assistant Professor (Computer Science and Engineering)<br><br></p>
+      </div>
+      <div class="w3-panel w3-pale-blue w3-leftbar w3-rightbar w3-border-blue" style="display: inline-block;
+  max-width: 25%;
+  text-align: center;
+  padding: 30px;
+  background-color: #ddd;
+  border-radius: 3px;
+  margin: 30px 60px;
+  vertical-align: top;">
+        <h2 style="text-align: center;"><b>Utkarsh Pundir</b></h2>
+        <p>Assistant Professor (Computer Science and Engineering)<br>
+ utkarsh.pundir@miet.ac.in</p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="Partner" class="tabcontent" style="background-image: url(pic41.jpg);">
+    <div class="w3-panel w3-pale-blue w3-leftbar w3-rightbar w3-border-blue" style="display: inline-block;
+  max-width: 50%;
+  text-align: center;
+  padding: 30px;
+  background-color: #ddd;
+  border-radius: 3px;
+  margin: 30px 400px;
+  vertical-align: top;">
+        <h2 style="text-align: center;"><b>Partners Associated With Us</b></h2>
+      </div>
+    <div class="w3-container">
+      
+      <div class="w3-panel w3-white w3-leftbar w3-rightbar w3-border-blue" style="display: inline-block;
+  max-width: 20%;
+  text-align: left;
+  padding: 30px;
+  background-color: #ddd;
+  border-radius: 3px;
+  margin: 40px 100px;
+  vertical-align: top;">
+          <img src="1.1.png" height="100px" width="100px" alt="">
+      </div>
+      <div class="w3-panel w3-white w3-leftbar w3-rightbar w3-border-blue" style="display: inline-block;
+  max-width: 20%;
+  text-align: left;
+  padding: 30px;
+  background-color: #ddd;
+  border-radius: 3px;
+  margin: 40px 50px;">
+          <img src="6.png" height="100px" width="100px" alt="">
+      </div>
+      <div class="w3-panel w3-white w3-leftbar w3-rightbar w3-border-blue" style="display: inline-block;
+  max-width: 20%;
+  text-align: left;
+  padding: 30px;
+  background-color: #ddd;
+  border-radius: 3px;
+  margin: 40px 50px;">
+          <img src="2.1.png" height="100px" width="100px" alt="">
+      </div>
+      <div class="w3-panel w3-white w3-leftbar w3-rightbar w3-border-blue" style="display: inline-block;
+  max-width: 20%;
+  text-align: left;
+  padding: 30px;
+  background-color: #ddd;
+  border-radius: 3px;
+  margin: 40px 100px;">
+          <img src="3.png" height="100px" width="100px" alt="">
+      </div>
+    </div>    
+    <div class="w3-container">
+      
+      <div class="w3-panel w3-white w3-leftbar w3-rightbar w3-border-blue" style="display: inline-block;
+  max-width: 20%;
+  text-align: left;
+  padding: 30px;
+  background-color: #ddd;
+  border-radius: 3px;
+  margin: 40px 100px;
+  vertical-align: top;">
+          <img src="nptel.jpg" height="100px" width="100px" alt="">
+      </div>
+      <div class="w3-panel w3-white w3-leftbar w3-rightbar w3-border-blue" style="display: inline-block;
+  max-width: 20%;
+  text-align: left;
+  padding: 30px;
+  background-color: #ddd;
+  border-radius: 3px;
+  margin: 40px 50px;">
+          <img src="6.png" height="100px" width="100px" alt="">
+      </div>
+      <div class="w3-panel w3-white w3-leftbar w3-rightbar w3-border-blue" style="display: inline-block;
+  max-width: 20%;
+  text-align: left;
+  padding: 30px;
+  background-color: #ddd;
+  border-radius: 3px;
+  margin: 40px 50px;">
+          <img src="4.png" height="100px" width="100px" alt="">
+      </div>
+      <div class="w3-panel w3-white w3-leftbar w3-rightbar w3-border-blue" style="display: inline-block;
+  max-width: 20%;
+  text-align: left;
+  padding: 30px;
+  background-color: #ddd;
+  border-radius: 3px;
+  margin: 40px 100px;">
+          <img src="7.png" height="100px" width="100px" alt="">
+      </div>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<div id="Project" class="tabcontent">
+  <div class="soft" style="background-image: url(pic41.jpg);">
+
+<div id="aa">
+<img class="soft-img" src="2.png" height="100px" width="200px" alt=""  style="margin: 80px 100px;">
+
+<div class="w3-panel w3-pale-blue w3-leftbar w3-rightbar w3-border-blue" style="display: inline-block;
+max-width: 50%;
+text-align: left;
+padding: 20px;
+background-color: #ddd;
+border-radius: 3px;
+margin: 50px 40px;
+vertical-align: top;"><strong class="soft-size" style="text-align:center; font-size:25px;">MyShikshak</strong><p>MyShikshak is a fastest-growing Edtech startup in India. Currently they provide marketplace and workplace for Learners and Tutors. they help Learners get trusted tutors for all their learning needs.</p></div></div>
+
+<div id="bb">
+  <img class="soft-img"  src="code recipe.png"  height="200px" width="200px" alt=""  style="margin: 20px 100px;">
+
+  <div class="w3-panel w3-pale-blue w3-leftbar w3-rightbar w3-border-blue" style="display: inline-block;
+  max-width: 50%;
+  text-align: left;
+  padding: 20px;
+  background-color: #ddd;
+  border-radius: 3px;
+  margin: 25px 40px;
+  vertical-align: top;"><strong class="soft-size" style="text-align:center; font-size:25px;">Code-Recipe</strong><p>Code Recipe is a new e-learning Platform (For the student, by the student, to the student).<br>It is an initiative to bring the high-end technical world within the reach of each individual who intends to learn.s </p>
+  </div>
+</div>
+
+<div id="cc">
+  <img class="softimg"  src="praan.png"  height="200px" width="200px" alt=""  style="margin: 30px 100px;">
+  <div class="w3-panel w3-pale-blue w3-leftbar w3-rightbar w3-border-blue" style="display: inline-block;
+  max-width: 50%;
+  text-align: left;
+  padding: 20px;
+  background-color: #ddd;
+  border-radius: 3px;
+  margin: 30px 40px;
+  vertical-align: top;"><strong class="soft-size" style="text-align:center; font-size:25px;">Praan Web Services</strong><p>Praan is an I.T Company that Provides best services at very low cost and with one year free Maintenance Services. Praan’s domain comprises of website development, data analysis, application development and graphic designing. </p></div></div>
+
+<div id="dd">
+  <img class="soft-img"  src="1.png"  height="100px" width="200px" alt=""  style="margin: 30px 100px;">
+
+  <div class="w3-panel w3-pale-blue w3-leftbar w3-rightbar w3-border-blue" style="display: inline-block;
+  max-width: 50%;
+  text-align: left;
+  padding: 20px;
+  background-color: #ddd;
+  border-radius: 3px;
+  margin: 30px 40px;
+  vertical-align: top;"><strong class="soft-size" style="text-align:center; font-size:25px;">MIC tech</strong><p>MICTech B Labs introduces a stage to exhibit technical software skills for the aspirants who want to earn a place in the IT industry.You get the liberty to implement your ideas with our enhanced guidance.</p></div></div>
+
+
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<div id="Software" class="tabcontent">
+  <div class="soft" style="background-image: url(pic41.jpg);">
+
+<div id="aa">
+<img class="soft-img" src="a.png" height="200px" width="200px" alt=""  style="margin: 30px 100px;">
+
+<div class="w3-panel w3-pale-blue w3-leftbar w3-rightbar w3-border-blue" style="display: inline-block;
+max-width: 50%;
+text-align: left;
+padding: 20px;
+background-color: #ddd;
+border-radius: 3px;
+margin: 30px 40px;
+vertical-align: top;"><strong class="soft-size" style="text-align:center; font-size:25px;">NS-2</strong><p>Ns-2 is a discrete event simulator targeted at networking research. Ns-2 provides substantial support for simulation of TCP, routing, and multicast protocols over wired and wireless (local and satellite) networks.</p> <a href="https://en.wikipedia.org/wiki/Ns_(simulator)"> https://en.wikipedia.org/wiki/Ns_(simulator)</a></div></div>
+
+<div id="bb">
+  <img class="soft-img"  src="b.jpg"  height="200px" width="200px" alt=""  style="margin: 30px 100px;">
+
+  <div class="w3-panel w3-pale-blue w3-leftbar w3-rightbar w3-border-blue" style="display: inline-block;
+  max-width: 50%;
+  text-align: left;
+  padding: 20px;
+  background-color: #ddd;
+  border-radius: 3px;
+  margin: 25px 40px;
+  vertical-align: top;"><strong class="soft-size" style="text-align:center; font-size:25px;">Wireshark</strong><p>Wireshark is the world’s foremost and widely-used network protocol analyzer. It lets you see what’s happening on your network at a microscopic level and is the de facto (and often de jure) standard across many commercial and non-profit enterprises, government agencies, and educational institutions</p>
+<a href="https://www.wireshark.org/" style="text-align:center;">https://www.wireshark.org/</a>
+  </div>
+</div>
+
+<div id="cc">
+  <img class="softimg"  src="c.jpg"  height="200px" width="200px" alt=""  style="margin: 30px 100px;">
+  <div class="w3-panel w3-pale-blue w3-leftbar w3-rightbar w3-border-blue" style="display: inline-block;
+  max-width: 50%;
+  text-align: left;
+  padding: 20px;
+  background-color: #ddd;
+  border-radius: 3px;
+  margin: 30px 40px;
+  vertical-align: top;"><strong class="soft-size" style="text-align:center; font-size:25px;">CISCO Packet Tracer</strong><p>An innovative and powerful networking simulation tool used for practice, discovery and troubleshooting.</p> <a href="https://en.wikipedia.org/wiki/Packet_Tracer"> https://en.wikipedia.org/wiki/Packet_Tracer</a></div></div>
+
+<div id="dd">
+  <img class="soft-img"  src="d.png"  height="200px" width="200px" alt=""  style="margin: 30px 100px;">
+
+  <div class="w3-panel w3-pale-blue w3-leftbar w3-rightbar w3-border-blue" style="display: inline-block;
+  max-width: 50%;
+  text-align: left;
+  padding: 20px;
+  background-color: #ddd;
+  border-radius: 3px;
+  margin: 30px 40px;
+  vertical-align: top;"><strong class="soft-size" style="text-align:center; font-size:25px;">Snort</strong><p>Snort is an open-source, free and lightweight network intrusion detection system (NIDS) software for Linux and Windows to detect emerging threats.</p>  <a href="https://www.snort.org/">https://www.snort.org/</a></div></div>
+
+
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<div id="Achieve" class="tabcontent" style="background-image: url(pic41.jpg);">
+  <div class="w3-container">
+      <div class="w3-panel w3-pale-blue w3-leftbar w3-rightbar w3-border-blue" style="display: inline-block;
+  max-width: 60%;
+  text-align: left;
+  padding: 30px;
+  background-color: #ddd;
+  border-radius: 3px;
+  margin: 60px 500px;
+  vertical-align: top;">
+        <h2 style="text-align: center;"><b>Details will be update soon</b></h2>
+      </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="Event" class="tabcontent" style="background-image: url(pic41.jpg);">
+  <div class="w3-container">
+      <div class="w3-panel w3-pale-blue w3-leftbar w3-rightbar w3-border-blue" style="display: inline-block;
+  max-width: 60%;
+  text-align: left;
+  padding: 30px;
+  background-color: #ddd;
+  border-radius: 3px;
+  margin: 60px 500px;
+  vertical-align: top;">
+        <h2 style="text-align: center;"><b>Stay Tuned for Upcoming Event</b></h2>
+      </div>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div id="More" class="tabcontent" style="background-image: url(pic41.jpg);">
+   <div class="w3-container">
+      <div class="w3-panel w3-pale-blue w3-leftbar w3-rightbar w3-border-blue" style="display: inline-block;
+  max-width: 80%;
+  text-align: center;
+  padding: 30px;
+  background-color: #ddd;
+  border-radius: 3px;
+  margin: 60px 470px;
+  vertical-align: top;">
+        <h2 style="text-align: center;"><b>Dr. Vimal Kumar</b></h2>
+        <p>Associate Professor<br> (Computer Science and Engineering)<br>
+ vimal.kumar@miet.ac.in</p>
+      </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+
+<footer class="w3-center w3-black" style="padding-bottom: 10px; padding-top: 22px;">
+  <a href="#top" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-container">
+      <div class="w3-panel w3-black" style="display: inline-block;
+  max-width: 50%;
+  text-align: center;
+  padding: 10px;
+  background-color: #ddd;
+  border-radius: 3px;
+  margin: 0px 50px;
+  vertical-align: top;">
+        <h2 style="text-align: center;">Contact</h2>
+        <p>Dr. Vimal Kumar<br>
+Associate Professor (Computer Science and Engineering)<br>
+ vimal.kumar@miet.ac.in<br>
+    +91 7647843623</p>
+      </div>
+      <div class="w3-panel w3-black" style="display: inline-block;
+  max-width: 25%;
+  text-align: left;
+  padding: 10px;
+  background-color: #ddd;
+  border-radius: 3px;
+  margin: 0px 50px;">
+        <h2 style="text-align: center;">Connect with Us</h2>
+      <a href="https://twitter.com/code_recipe"><i class="fa fa-twitter w3-hover-opacity" style="padding: 0px 10px; font-size: 40px;"></i></a>
+        <a href="https://www.instagram.com/coderecipeofficial/"><i class="fa fa-instagram w3-hover-opacity"  style="padding: 0px 10px; font-size: 40px;"></i></a>
+      <a href="https://www.linkedin.com/company/coderecipeofficial/"><i class="fa fa-linkedin w3-hover-opacity" style="padding: 0px 10px; font-size: 40px;"></i></a>
+
+      </div>
+
+    <h3 style="">Powered by <a href="https://www.youtube.com/channel/UCQY5zPxmRoC-Y3df0HjHeIQ/" title="Coding for life" target="_blank" class="w3-hover-text-green"><b>Code-Recipe</a></h3>
+</footer>
+
+
+
+</body>
+</html>
